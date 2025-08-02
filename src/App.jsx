@@ -14,18 +14,19 @@ function App() {
 
   return (
     <>
-    <Navbar />
-    <Routes>
-      <Route exact path="/" element={<Home />} />
-      <Route exact path="/Shop" element={<Shop />} />
-      <Route exact path="/About" element={<About/>} />
-      <Route exact path="/Profile" element={<Profile/>} />
-      <Route exact path="/MyOrders" element={<MyOrder />} />
-      <Route exact path="/Cart" element={<Cart />} />
-      <Route path='*' element={<NotFound />}/>
-    </Routes>
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/Shop" element={<Shop />} />
+        <Route exact path="/About" element={<About />} />
+        <Route exact path="/Profile" element={<Profile />} />
+        <Route exact path="/MyOrders" element={<MyOrder />} />
+        <Route exact path="/Cart" element={<Cart />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+      <Footer />
     </>
-  )
+  );
 }
 
 export default App
