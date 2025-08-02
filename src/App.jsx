@@ -7,6 +7,7 @@ import About from './pages/About'
 import Profile from './components/Profile'
 import MyOrder from './components/MyOrder'
 import Cart from './components/Cart'
+import Footer from "./components/Footer";
 import React from 'react'
 import NotFound from './pages/NotFound'
 
